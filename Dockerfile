@@ -1,10 +1,10 @@
 # pull official base image
 FROM node:14
 
+EXPOSE 3000
+
 # set working directory
 WORKDIR ./
-
-EXPOSE 80
 
 # add `/app/node_modules/.bin` to $PATH
 ENV PATH node_modules/.bin:$PATH
