@@ -16,7 +16,7 @@ class App extends Component {
                     <h1>Joe Aronson's Homepage</h1>
                     <ul className="header">
                         <li><NavLink to="/" className={({ isActive }) => (isActive ? "link-active" : "link")}>Home</NavLink></li>
-                        <li><NavLink to="/resume" className={({ isActive }) => (isActive ? "link-active" : "link")}>Resume</NavLink></li>
+
                         <li><NavLink to="/contact" className={({ isActive }) => (isActive ? "link-active" : "link")}>Contact</NavLink></li>
                     </ul>
                     <div className="content">

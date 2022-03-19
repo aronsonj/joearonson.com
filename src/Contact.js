@@ -5,7 +5,7 @@ class Contact extends Component {
     render() {
         return (
             <div>
-                <a href="www.linkedin.com/in/joseph-aronson-dev">Linkedin</a>
+                <a target="_blank" rel="noreferrer" href="http://www.linkedin.com/in/joseph-aronson-dev">Linkedin</a>
             </div>
         );
     }
